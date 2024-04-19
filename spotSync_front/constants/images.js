@@ -10,5 +10,6 @@ import amb_img from "../assets/images/amb_mall.jpg"
 import spotsynclogo from "../assets/images/logo.png"
 import graph from "../assets/images/graph.png"
 import rrs from "../assets/images/rrs.png"
+import dlf from "../assets/images/dlf.jpg"
 
-export default { profile, thumbnail, cards, path, logo, logoSmall, empty, settings, amb_img, spotsynclogo, graph, rrs };
+export default { profile, thumbnail, cards, path, logo, logoSmall, empty, settings, amb_img, spotsynclogo, graph, rrs, dlf };

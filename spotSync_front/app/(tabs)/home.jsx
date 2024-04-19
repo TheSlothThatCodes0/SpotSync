@@ -55,7 +55,7 @@ const Home = () => {
                 </Text>
                 <ParkingCapacityIndicator
                   totalCapacity={500}
-                  slotsRemaining={100}
+                  slotsRemaining={0}
                 />
                 <Link
                   href={"../parkingDetails/ParkingDetails1"}
@@ -95,10 +95,10 @@ const Home = () => {
                 </Text>
                 <ParkingCapacityIndicator
                   totalCapacity={1000}
-                  slotsRemaining={700}
+                  slotsRemaining={300}
                 />
                 <Link
-                  href={"../parkingDetails/ParkingDetails3"}
+                  href={"../home"}
                   className="absolute right-2 bottom-2 px-4 py-2 mb-5 rounded-full bg-black text-white text-center"
                 >
                   <Text className="font-pmedium mr-2">More Details</Text>

@@ -3,13 +3,15 @@ import { View, Text, Image, ScrollView } from "react-native";
 import { images } from "../../constants";
 import { Link } from "expo-router";
 
+console.disableYellowBox = true;
+
 const ParkingDetails1 = () => {
-  const [data, setData] = useState(48);
+  const [data, setData] = useState(0);
 
   // useEffect(() => {
   //   const fetchData = async () => {
   //     try {
-  //       const response = await fetch("http://192.168.53.249:8000//detect/slotsRemaining/");
+  //       const response = await fetch("http://192.168.53.249:8000/detect/slotsRemaining/");
   //       if (response.ok) {
   //         const jsonData = await response.json();
   //         setData(jsonData);
@@ -23,6 +25,24 @@ const ParkingDetails1 = () => {
 
   //   fetchData();
   // }, []);
+
+  useEffect(() => {
+    const values = [48,49,49,49,49,49,49,49,49,50]; // Replace with your list of values
+
+    let index = 0;
+    const interval = setInterval(() => {
+      if (index === values.length) {
+        clearInterval(interval);
+        return;
+      }
+      setData(values[index]);
+      index++;
+    }, 2000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
 
   return (
     <ScrollView className="bg-primary flex-1">
