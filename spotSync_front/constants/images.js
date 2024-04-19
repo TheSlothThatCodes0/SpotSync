@@ -9,6 +9,6 @@ import settings from "../assets/images/settings.png"
 import amb_img from "../assets/images/amb_mall.jpg"
 import spotsynclogo from "../assets/images/logo.png"
 import graph from "../assets/images/graph.png"
+import rrs from "../assets/images/rrs.png"
 
-
-export default { profile, thumbnail, cards, path, logo, logoSmall, empty, settings, amb_img, spotsynclogo, graph };
+export default { profile, thumbnail, cards, path, logo, logoSmall, empty, settings, amb_img, spotsynclogo, graph, rrs };

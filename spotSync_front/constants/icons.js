@@ -12,6 +12,14 @@ import eyeHide from "../assets/icons/eye-hide.png";
 import eye from "../assets/icons/eye.png";
 import play from "../assets/icons/play.png";
 import maps from "../assets/icons/route-solid.png";
+import map_marker from "../assets/icons/location-crosshairs-solid.png";
+import activity from "../assets/icons/car-side-solid.png";
+import help from "../assets/icons/help.png"
+import wallet from "../assets/icons/wallet-solid.png"
+import notifications from "../assets/icons/bell-regular.png"
+import info from "../assets/icons/circle-info-solid.png"
+import invoice from "../assets/icons/receipt-solid.png"
+import edit from "../assets/icons/edit.png"
 
 export default {
   play,
@@ -27,5 +35,13 @@ export default {
   logout,
   eyeHide,
   eye,
-  maps
+  maps,
+  map_marker,
+  activity,
+  help,
+  wallet,
+  notifications,
+  info,
+  invoice,
+  edit
 };
