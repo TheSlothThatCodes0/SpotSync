@@ -1,6 +1,6 @@
-﻿# SpotSync
-![Spot_Sync logo](<Screenshot 2024-05-14 035233.png>)
-<img src="https://github.com/favicon.ico" width="48">
+﻿# Parking Optimization Solution
+
+<img src="Screenshot%202024-05-14%20035233.png" width="250">
 
 ## Description
 SpotSync is a complete parking solution designed to make parking easier and more efficient.
@@ -27,21 +27,5 @@ https://github.com/Sanchit-100/SpotSync/assets/141770981/2459d523-bcb0-45bc-b2ec
 
 
 
+## Architecture
 
-## Demo Video
-https://youtu.be/FPlyQnJwzFA
-
-## Usage
-(Add usage instructions here)
-
-## Contributing
-(Add contribution guidelines here)
-
-## Dependencies
-(Add any dependencies or prerequisites here)
-
-## License
-(Add license information here)
-
-## Contact
-(Add contact information for the maintainers here)
