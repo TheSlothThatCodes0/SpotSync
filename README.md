@@ -28,4 +28,5 @@ https://github.com/Sanchit-100/SpotSync/assets/141770981/2459d523-bcb0-45bc-b2ec
 
 
 ## Architecture
-
+<img src="arch_1.png" width="1000">
+<img src="arch_2.png" width="1000">
