@@ -15,7 +15,7 @@ const Maps = () => {
 
   axios
     .get(
-      `https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=cruise&location=${location.latitude},${location.longitude}&radius=5000&type=parking&key=AIzaSyCqJsFwwMoCELHYk2Z1wTE-wriCXDnWbWQ`
+      `https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=cruise&location=${location.latitude},${location.longitude}&radius=5000&type=parking&key=`
     )
     .then((response) => {
       setMarkers(response.data.results);

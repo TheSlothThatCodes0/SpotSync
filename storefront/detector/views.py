@@ -6,7 +6,7 @@ import os
 from django.http import StreamingHttpResponse
 
 def detect_parking_spaces(request):
-    rf = Roboflow(api_key="2yfAVtQCtbGpRbOO6hBm")
+    rf = Roboflow(api_key="")
     project = rf.workspace().project("parking-detection-mitok")
     model = project.version(2).model
 

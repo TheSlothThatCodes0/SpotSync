@@ -8,40 +8,22 @@ console.disableYellowBox = true;
 const ParkingDetails1 = () => {
   const [data, setData] = useState(0);
 
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     try {
-  //       const response = await fetch("http://192.168.53.249:8000/detect/slotsRemaining/");
-  //       if (response.ok) {
-  //         const jsonData = await response.json();
-  //         setData(jsonData);
-  //       } else {
-  //         console.error("Error fetching data:", response.status);
-  //       }
-  //     } catch (error) {
-  //       console.error("Error fetching data:", error);
-  //     }
-  //   };
-
-  //   fetchData();
-  // }, []);
-
   useEffect(() => {
-    const values = [48,49,49,49,49,49,49,49,49,50]; // Replace with your list of values
-
-    let index = 0;
-    const interval = setInterval(() => {
-      if (index === values.length) {
-        clearInterval(interval);
-        return;
+    const fetchData = async () => {
+      try {
+        const response = await fetch("http:///detect/slotsRemaining/");
+        if (response.ok) {
+          const jsonData = await response.json();
+          setData(jsonData);
+        } else {
+          console.error("Error fetching data:", response.status);
+        }
+      } catch (error) {
+        console.error("Error fetching data:", error);
       }
-      setData(values[index]);
-      index++;
-    }, 2000);
-
-    return () => {
-      clearInterval(interval);
     };
+
+    fetchData();
   }, []);
 
   return (
